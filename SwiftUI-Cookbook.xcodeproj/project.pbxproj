@@ -15,6 +15,10 @@
 		5B5662862C926BCC00FDED40 /* SwiftUI_CookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5662852C926BCC00FDED40 /* SwiftUI_CookbookTests.swift */; };
 		5B5662902C926BCC00FDED40 /* SwiftUI_CookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56628F2C926BCC00FDED40 /* SwiftUI_CookbookUITests.swift */; };
 		5B5662922C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5662912C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift */; };
+		5B56629F2C926F8600FDED40 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56629E2C926F8600FDED40 /* SwiftUIView.swift */; };
+		5BDC6CE82C9273EC003705DB /* AudioWithSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC6CE72C9273EC003705DB /* AudioWithSliderView.swift */; };
+		5BDC6CEB2C927527003705DB /* Morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BDC6CEA2C927527003705DB /* Morning.mp3 */; };
+		5BDC6CED2C927C7E003705DB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC6CEC2C927C7E003705DB /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		5B56628B2C926BCC00FDED40 /* SwiftUI-CookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-CookbookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B56628F2C926BCC00FDED40 /* SwiftUI_CookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CookbookUITests.swift; sourceTree = "<group>"; };
 		5B5662912C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CookbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5B56629E2C926F8600FDED40 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		5BDC6CE72C9273EC003705DB /* AudioWithSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWithSliderView.swift; sourceTree = "<group>"; };
+		5BDC6CEA2C927527003705DB /* Morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Morning.mp3; sourceTree = "<group>"; };
+		5BDC6CEC2C927C7E003705DB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,16 @@
 		5B5662702C926BCA00FDED40 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				5BDC6CE92C92750F003705DB /* Resource */,
+				5BDC6CE72C9273EC003705DB /* AudioWithSliderView.swift */,
 				5B5662712C926BCA00FDED40 /* SwiftUI_CookbookApp.swift */,
 				5B5662732C926BCA00FDED40 /* ContentView.swift */,
 				5B5662752C926BCA00FDED40 /* Item.swift */,
 				5B5662772C926BCB00FDED40 /* Assets.xcassets */,
 				5B5662792C926BCB00FDED40 /* SwiftUI_Cookbook.entitlements */,
 				5B56627A2C926BCB00FDED40 /* Preview Content */,
+				5B56629E2C926F8600FDED40 /* SwiftUIView.swift */,
+				5BDC6CEC2C927C7E003705DB /* MenuView.swift */,
 			);
 			path = "SwiftUI-Cookbook";
 			sourceTree = "<group>";
@@ -130,6 +142,14 @@
 				5B5662912C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-CookbookUITests";
+			sourceTree = "<group>";
+		};
+		5BDC6CE92C92750F003705DB /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5BDC6CEA2C927527003705DB /* Morning.mp3 */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +256,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDC6CEB2C927527003705DB /* Morning.mp3 in Resources */,
 				5B56627C2C926BCB00FDED40 /* Preview Assets.xcassets in Resources */,
 				5B5662782C926BCB00FDED40 /* Assets.xcassets in Resources */,
 			);
@@ -263,7 +284,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B5662742C926BCA00FDED40 /* ContentView.swift in Sources */,
+				5BDC6CED2C927C7E003705DB /* MenuView.swift in Sources */,
 				5B5662762C926BCA00FDED40 /* Item.swift in Sources */,
+				5B56629F2C926F8600FDED40 /* SwiftUIView.swift in Sources */,
+				5BDC6CE82C9273EC003705DB /* AudioWithSliderView.swift in Sources */,
 				5B5662722C926BCA00FDED40 /* SwiftUI_CookbookApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

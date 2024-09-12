@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUI-Cookbook
-//  
-//  Created by t-watanabe on 2024/09/12.
-//
-
 import SwiftUI
 import SwiftData
 
