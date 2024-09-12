@@ -19,6 +19,8 @@
 		5BDC6CE82C9273EC003705DB /* AudioWithSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC6CE72C9273EC003705DB /* AudioWithSliderView.swift */; };
 		5BDC6CEB2C927527003705DB /* Morning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5BDC6CEA2C927527003705DB /* Morning.mp3 */; };
 		5BDC6CED2C927C7E003705DB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC6CEC2C927C7E003705DB /* MenuView.swift */; };
+		5BDC6CF02C928B47003705DB /* AudioWithSliderNoTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC6CEF2C928B47003705DB /* AudioWithSliderNoTimerView.swift */; };
+		5BDC6CF22C928B83003705DB /* AudioWithSliderNoTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BDC6CF12C928B83003705DB /* AudioWithSliderNoTimerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		5BDC6CE72C9273EC003705DB /* AudioWithSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWithSliderView.swift; sourceTree = "<group>"; };
 		5BDC6CEA2C927527003705DB /* Morning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Morning.mp3; sourceTree = "<group>"; };
 		5BDC6CEC2C927C7E003705DB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		5BDC6CEF2C928B47003705DB /* AudioWithSliderNoTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWithSliderNoTimerView.swift; sourceTree = "<group>"; };
+		5BDC6CF12C928B83003705DB /* AudioWithSliderNoTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWithSliderNoTimerViewModel.swift; sourceTree = "<group>"; };
+		5BDC6CF32C929AD9003705DB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +90,7 @@
 		5B5662652C926BCA00FDED40 = {
 			isa = PBXGroup;
 			children = (
+				5BDC6CF32C929AD9003705DB /* MyPlayground.playground */,
 				5B5662702C926BCA00FDED40 /* SwiftUI-Cookbook */,
 				5B5662842C926BCC00FDED40 /* SwiftUI-CookbookTests */,
 				5B56628E2C926BCC00FDED40 /* SwiftUI-CookbookUITests */,
@@ -105,8 +111,8 @@
 		5B5662702C926BCA00FDED40 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				5BDC6CEE2C928B25003705DB /* AudioWithSlider */,
 				5BDC6CE92C92750F003705DB /* Resource */,
-				5BDC6CE72C9273EC003705DB /* AudioWithSliderView.swift */,
 				5B5662712C926BCA00FDED40 /* SwiftUI_CookbookApp.swift */,
 				5B5662732C926BCA00FDED40 /* ContentView.swift */,
 				5B5662752C926BCA00FDED40 /* Item.swift */,
@@ -150,6 +156,16 @@
 				5BDC6CEA2C927527003705DB /* Morning.mp3 */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		5BDC6CEE2C928B25003705DB /* AudioWithSlider */ = {
+			isa = PBXGroup;
+			children = (
+				5BDC6CE72C9273EC003705DB /* AudioWithSliderView.swift */,
+				5BDC6CEF2C928B47003705DB /* AudioWithSliderNoTimerView.swift */,
+				5BDC6CF12C928B83003705DB /* AudioWithSliderNoTimerViewModel.swift */,
+			);
+			path = AudioWithSlider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,8 +299,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BDC6CF02C928B47003705DB /* AudioWithSliderNoTimerView.swift in Sources */,
 				5B5662742C926BCA00FDED40 /* ContentView.swift in Sources */,
 				5BDC6CED2C927C7E003705DB /* MenuView.swift in Sources */,
+				5BDC6CF22C928B83003705DB /* AudioWithSliderNoTimerViewModel.swift in Sources */,
 				5B5662762C926BCA00FDED40 /* Item.swift in Sources */,
 				5B56629F2C926F8600FDED40 /* SwiftUIView.swift in Sources */,
 				5BDC6CE82C9273EC003705DB /* AudioWithSliderView.swift in Sources */,
