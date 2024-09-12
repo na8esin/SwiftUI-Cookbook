@@ -60,6 +60,7 @@
 		5BDC6CEF2C928B47003705DB /* AudioWithSliderNoTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWithSliderNoTimerView.swift; sourceTree = "<group>"; };
 		5BDC6CF12C928B83003705DB /* AudioWithSliderNoTimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioWithSliderNoTimerViewModel.swift; sourceTree = "<group>"; };
 		5BDC6CF32C929AD9003705DB /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		5BDC6CF42C92B03D003705DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +91,7 @@
 		5B5662652C926BCA00FDED40 = {
 			isa = PBXGroup;
 			children = (
+				5BDC6CF42C92B03D003705DB /* README.md */,
 				5BDC6CF32C929AD9003705DB /* MyPlayground.playground */,
 				5B5662702C926BCA00FDED40 /* SwiftUI-Cookbook */,
 				5B5662842C926BCC00FDED40 /* SwiftUI-CookbookTests */,
@@ -116,11 +118,11 @@
 				5B5662712C926BCA00FDED40 /* SwiftUI_CookbookApp.swift */,
 				5B5662732C926BCA00FDED40 /* ContentView.swift */,
 				5B5662752C926BCA00FDED40 /* Item.swift */,
+				5BDC6CEC2C927C7E003705DB /* MenuView.swift */,
 				5B5662772C926BCB00FDED40 /* Assets.xcassets */,
 				5B5662792C926BCB00FDED40 /* SwiftUI_Cookbook.entitlements */,
 				5B56627A2C926BCB00FDED40 /* Preview Content */,
 				5B56629E2C926F8600FDED40 /* SwiftUIView.swift */,
-				5BDC6CEC2C927C7E003705DB /* MenuView.swift */,
 			);
 			path = "SwiftUI-Cookbook";
 			sourceTree = "<group>";

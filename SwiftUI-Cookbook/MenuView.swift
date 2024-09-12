@@ -3,6 +3,10 @@ import SwiftUI
 struct MenuView: View {
   var body: some View {
     NavigationStack {
+      NavigationLink(destination: AudioWithSliderNoTimerView()) {
+        Text("AudioWithSliderNoTimerView")
+          .font(.title2)
+      }
       NavigationLink(destination: ContentView()) {
         Text("ContentView")
           .font(.title2)

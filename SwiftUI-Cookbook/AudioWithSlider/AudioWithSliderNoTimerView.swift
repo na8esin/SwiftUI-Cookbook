@@ -7,14 +7,14 @@ struct AudioWithSliderNoTimerView: View {
   var body: some View {
     VStack {
       Button(action: {
-        vm.player?.play()
+        vm.play()
       }, label: {
         Text("play")
       })
       Slider(value: $vm.currentTime, in: 0...vm.duration)
     }
     .onDisappear {
-      vm.player?.stop()
+      vm.stop()
     }
   }
 }
