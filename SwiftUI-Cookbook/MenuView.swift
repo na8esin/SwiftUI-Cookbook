@@ -2,7 +2,12 @@ import SwiftUI
 
 struct MenuView: View {
   var body: some View {
+    
     NavigationStack {
+      NavigationLink(destination: StackParentView()) {
+        Text("StackParentView")
+          .font(.title2)
+      }
       NavigationLink(destination: AudioWithSliderNoTimerView()) {
         Text("AudioWithSliderNoTimerView")
           .font(.title2)
