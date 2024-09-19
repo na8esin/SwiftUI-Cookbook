@@ -1,6 +1,7 @@
 import SwiftUI
 import AVFAudio
 
+/// scheduledTimerを使ってSliderと連動させる
 struct AudioWithSliderView: View {
   @State var sliderValue: TimeInterval = 0.0
   @State var sliderMax: TimeInterval = 0.0
