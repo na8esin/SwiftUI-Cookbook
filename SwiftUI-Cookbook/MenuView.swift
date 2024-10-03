@@ -1,9 +1,14 @@
 import SwiftUI
 
 struct MenuView: View {
+  @State private var park: [Park] = []
+
   var body: some View {
-    
-    NavigationStack {
+    NavigationStack(path: $park) {
+      NavigationLink(destination: NewStackParentView(park: $park)) {
+        Text("NewStackParentView")
+          .font(.title2)
+      }
       NavigationLink(destination: StackParentView()) {
         Text("StackParentView")
           .font(.title2)
