@@ -1,5 +1,4 @@
 import SwiftUI
-import AVFAudio
 
 struct AudioWithSliderNoTimerView: View {
   @State var vm = AudioWithSliderNoTimerViewModel()

@@ -10,16 +10,20 @@ struct MenuView: View {
         Text("StackParentView")
           .font(.title2)
       }
+      .padding(.bottom, 8)
+
       NavigationLink(destination: AudioWithSliderNoTimerView()) {
         Text("AudioWithSliderNoTimerView")
           .font(.title2)
       }
-      NavigationLink(destination: ContentView()) {
-        Text("ContentView")
-          .font(.title2)
-      }
       NavigationLink(destination: AudioWithSliderView()) {
         Text("AudioWithSliderView")
+          .font(.title2)
+      }
+      .padding(.bottom, 8)
+
+      NavigationLink(destination: ContentView()) {
+        Text("ContentView")
           .font(.title2)
       }
     }
