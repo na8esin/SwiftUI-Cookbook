@@ -21,6 +21,16 @@ struct MenuView: View {
           .font(.title2)
       }
       .padding(.bottom, 8)
+      
+      NavigationLink(destination: SliderView()) {
+        Text("SliderView")
+          .font(.title2)
+      }
+      NavigationLink(destination: TappableSliderView()) {
+        Text("TappableSliderView")
+          .font(.title2)
+      }
+      .padding(.bottom, 8)
 
       NavigationLink(destination: ContentView()) {
         Text("ContentView")

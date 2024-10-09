@@ -15,7 +15,9 @@
 		5B5662862C926BCC00FDED40 /* SwiftUI_CookbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5662852C926BCC00FDED40 /* SwiftUI_CookbookTests.swift */; };
 		5B5662902C926BCC00FDED40 /* SwiftUI_CookbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56628F2C926BCC00FDED40 /* SwiftUI_CookbookUITests.swift */; };
 		5B5662922C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5662912C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift */; };
-		5B56629F2C926F8600FDED40 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B56629E2C926F8600FDED40 /* SwiftUIView.swift */; };
+		5B5EA2722CB51DB900E79483 /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EA2712CB51DB900E79483 /* SliderView.swift */; };
+		5B5EA2742CB5FF8300E79483 /* TappableSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EA2732CB5FF8300E79483 /* TappableSliderView.swift */; };
+		5B5EA2762CB67A6300E79483 /* NewTappableSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B5EA2752CB67A6300E79483 /* NewTappableSliderView.swift */; };
 		5BA3480C2C9BDA180040B209 /* StackParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3480B2C9BDA180040B209 /* StackParentView.swift */; };
 		5BA3480E2C9BDAE50040B209 /* StackChildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3480D2C9BDAE50040B209 /* StackChildView.swift */; };
 		5BA348102C9BDD2F0040B209 /* NewStackParentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA3480F2C9BDD2F0040B209 /* NewStackParentView.swift */; };
@@ -58,7 +60,9 @@
 		5B56628B2C926BCC00FDED40 /* SwiftUI-CookbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-CookbookUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B56628F2C926BCC00FDED40 /* SwiftUI_CookbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CookbookUITests.swift; sourceTree = "<group>"; };
 		5B5662912C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_CookbookUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		5B56629E2C926F8600FDED40 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		5B5EA2712CB51DB900E79483 /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
+		5B5EA2732CB5FF8300E79483 /* TappableSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TappableSliderView.swift; sourceTree = "<group>"; };
+		5B5EA2752CB67A6300E79483 /* NewTappableSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTappableSliderView.swift; sourceTree = "<group>"; };
 		5BA3480B2C9BDA180040B209 /* StackParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackParentView.swift; sourceTree = "<group>"; };
 		5BA3480D2C9BDAE50040B209 /* StackChildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackChildView.swift; sourceTree = "<group>"; };
 		5BA3480F2C9BDD2F0040B209 /* NewStackParentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewStackParentView.swift; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 		5B5662702C926BCA00FDED40 /* SwiftUI-Cookbook */ = {
 			isa = PBXGroup;
 			children = (
+				5B5EA2772CB67A7900E79483 /* Slider */,
 				5BA3480A2C9BD9D20040B209 /* Navigation */,
 				5BDC6CEE2C928B25003705DB /* AudioWithSlider */,
 				5BDC6CE92C92750F003705DB /* Resource */,
@@ -133,7 +138,6 @@
 				5B5662772C926BCB00FDED40 /* Assets.xcassets */,
 				5B5662792C926BCB00FDED40 /* SwiftUI_Cookbook.entitlements */,
 				5B56627A2C926BCB00FDED40 /* Preview Content */,
-				5B56629E2C926F8600FDED40 /* SwiftUIView.swift */,
 			);
 			path = "SwiftUI-Cookbook";
 			sourceTree = "<group>";
@@ -161,6 +165,16 @@
 				5B5662912C926BCC00FDED40 /* SwiftUI_CookbookUITestsLaunchTests.swift */,
 			);
 			path = "SwiftUI-CookbookUITests";
+			sourceTree = "<group>";
+		};
+		5B5EA2772CB67A7900E79483 /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				5B5EA2712CB51DB900E79483 /* SliderView.swift */,
+				5B5EA2732CB5FF8300E79483 /* TappableSliderView.swift */,
+				5B5EA2752CB67A6300E79483 /* NewTappableSliderView.swift */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 		5BA3480A2C9BD9D20040B209 /* Navigation */ = {
@@ -328,15 +342,17 @@
 				5BDC6CF02C928B47003705DB /* AudioWithSliderNoTimerView.swift in Sources */,
 				5B5662742C926BCA00FDED40 /* ContentView.swift in Sources */,
 				5BDC6CED2C927C7E003705DB /* MenuView.swift in Sources */,
+				5B5EA2762CB67A6300E79483 /* NewTappableSliderView.swift in Sources */,
 				5BDC6CF22C928B83003705DB /* AudioWithSliderNoTimerViewModel.swift in Sources */,
 				5B5662762C926BCA00FDED40 /* Item.swift in Sources */,
-				5B56629F2C926F8600FDED40 /* SwiftUIView.swift in Sources */,
+				5B5EA2742CB5FF8300E79483 /* TappableSliderView.swift in Sources */,
 				5BA348142C9C00AA0040B209 /* NewStackChildView.swift in Sources */,
 				5BA348122C9BDE170040B209 /* Park.swift in Sources */,
 				5BA348102C9BDD2F0040B209 /* NewStackParentView.swift in Sources */,
 				5BDC6CE82C9273EC003705DB /* AudioWithSliderView.swift in Sources */,
 				5BA3480C2C9BDA180040B209 /* StackParentView.swift in Sources */,
 				5B5662722C926BCA00FDED40 /* SwiftUI_CookbookApp.swift in Sources */,
+				5B5EA2722CB51DB900E79483 /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
