@@ -47,5 +47,10 @@ struct NewTappableSliderView: View {
 
 #Preview {
   @Previewable @State var value: Double = 0
-  NewTappableSliderView(value: $value, in: 0...100, step: 0.1)
+  VStack {
+    Button("hello") {
+      
+    }
+    NewTappableSliderView(value: $value, in: 0...100, step: 0.1)
+  }
 }

@@ -9,7 +9,7 @@ class AudioWithSliderNoTimerViewModel {
   private var timeObserver: Any?
 
   private(set) var duration: TimeInterval = 0.0
-  var currentTime: TimeInterval = 0.0
+  var currentTime: TimeInterval = 0.1
 
   init() {
     let content = Bundle.main.url(forResource: "Morning", withExtension: "mp3")!
