@@ -11,7 +11,7 @@ struct SliderView: View {
         Text("Red:")
           .foregroundColor(.red)
         
-        // タップで変化ができない(デフォルトはできない)
+        // タップで変化ができない
         Slider(value: Binding(
           get: {
             self.rValue

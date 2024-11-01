@@ -1,14 +1,16 @@
 import SwiftUI
 
+// https://stackoverflow.com/questions/58687298/setting-the-value-of-a-swiftui-slider-by-tapping-on-it
+
 struct TappableSliderView: View {
   @State var sliderValue: Float = 1
   
   var body: some View {
-    TappableSlider(value: $sliderValue, range: 1...7, step: 1.0)
+      TappableSlider(value: $sliderValue, range: 1...7, step: 0.1)
   }
 }
 
-// 逆にスライドできないじゃん
+// タップはできるけど、drag & dropでつまみがついてこない
 struct TappableSlider: View {
   var value: Binding<Float>
   var range: ClosedRange<Float>
